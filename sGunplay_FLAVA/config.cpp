@@ -34,7 +34,7 @@ class CfgPatches {
 		requiredVersion = 0.1;
 		requiredAddons[] = {
 			"sGunplay",
-			"script_a",
+			"script_a", 
 			"TF_AK_Zenit_PT1Bttstck",
 			"TF_AN94_Bttstck",
 			"TF_Attachments",
