@@ -41,11 +41,82 @@ class CfgPatches {
 
 class cfgWeapons {
 	class AKM;
+	class M45_Base;
+	class UMP45;
+	class M4A1_Base;
+	class Rifle_Base;
+	class FAL_Base;
+	class FAL;
 	class AK5C_Base : AKM {
 		s_recoilControlStabilityX = 0.15;
 		s_recoilControlStabilityY = 0.15;
 		s_recoilControlMisalignmentX = 0.50;
 		s_recoilControlMisalignmentY = 0.55;
+	};
+	class MP40_Base : FAL {
+		s_recoilControlKick = 0.69;
+	};
+	class FNC_Base : AKM {
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.15;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.55;
+	};	
+	class MK16_Base : FAL_Base {
+		s_recoilControlStabilityX = 0.25;
+		s_recoilControlStabilityY = 0.25;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.55;
+		s_recoilControlKick = 0.75;
+	};	
+	class AM_PP19_Base : AKM {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class G36_Base : M4A1_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class AM_Saiga9 : AM_PP19_Base { // not necessary, but just in case you change the saiga9
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class Carl_Gustaf_M45 : M45_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class Criket_Base : UMP45 {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.75;
+	};
+	class Galil_ARM_Base : AKM {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class M14_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.10;
+		s_recoilControlStabilityY = 0.50;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlKick = 0.75;
 	};
 };
 
@@ -60,6 +131,46 @@ class cfgVehicles {
 		s_recoilControlMisalignmentX = 0.15;
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.70;
+	};
+	class FNC_buttstock : Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.70;
+	};
+	class G3A3_Bttstck : Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.70;
+	};
+	class G3SG1_Bttstck : Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.70;
+	};
+	class MP5A2_Bttstck : Inventory_Base {
+		s_recoilControlStabilityX = 0.50;
+		s_recoilControlStabilityY = 0.50;
+		s_recoilControlMisalignmentX = 0.00;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.75;
+	};
+	class G3SG1_Hndgrd : Inventory_Base {
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.15;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class MP5A2_Hndgrd : Inventory_Base {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.50;
 	};
 	class sz_att_AFG_Black : sz_att {
 		s_recoilControlStabilityX = 0.05;
