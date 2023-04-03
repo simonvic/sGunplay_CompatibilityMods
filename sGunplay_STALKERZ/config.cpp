@@ -288,28 +288,35 @@ class cfgVehicles {
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.70;
 	};
-	class sz_att_bttstck_rpk_wood: sz_att {
+	class sz_att_AKFoldingButtstock : sz_att {
 		s_recoilControlStabilityX = 0.45;
 		s_recoilControlStabilityY = 0.45;
 		s_recoilControlMisalignmentX = 0.15;
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.70;
 	};
-	class SZ_att_cz805_buttstock1: sz_att {
+	class sz_att_bttstck_rpk_wood : sz_att {
 		s_recoilControlStabilityX = 0.45;
 		s_recoilControlStabilityY = 0.45;
 		s_recoilControlMisalignmentX = 0.15;
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.70;
 	};
-	class SZ_att_cz805_buttstock2: sz_att {
+	class SZ_att_cz805_buttstock1 : sz_att {
 		s_recoilControlStabilityX = 0.45;
 		s_recoilControlStabilityY = 0.45;
 		s_recoilControlMisalignmentX = 0.15;
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.70;
 	};
-	class sz_att_AKButtPad: sz_att {
+	class SZ_att_cz805_buttstock2 : sz_att {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.70;
+	};
+	class sz_att_AKButtPad : sz_att {
 		s_recoilControlMisalignmentX = 0.15;
 		s_recoilControlMisalignmentY = 0.05;
 		s_recoilControlKick = 0.10;
@@ -433,6 +440,19 @@ class cfgVehicles {
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.75;
 	};
+	class SZ_att_Hndgrd_AK_b30 : Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.20;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.75;
+	};
+	class sz_Saiga12_Handguard : Inventory_Base {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
 	class sz_M4_MPBttstck : Inventory_Base {
 		s_recoilControlStabilityX = 0.45;
 		s_recoilControlStabilityY = 0.45;
@@ -525,6 +545,24 @@ class cfgVehicles {
 		s_recoilControlMisalignmentX = 0.55;
 		s_recoilControlMisalignmentY = 0.50;
 	};
+	class SZ_att_Hndgrd_AK_Zenit : sz_att {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SZ_att_Hndgrd_AK_Romanian : sz_att {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SZ_att_Hndgrd_AK_Polymer : sz_att {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
 	class SZ_att_Hndgrd_AK_Polymer_eotech : ItemOptics {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
@@ -556,6 +594,48 @@ class cfgVehicles {
 		s_recoilControlMisalignmentY = 0.50;
 	};
 	class SZ_att_Hndgrd_AK_Polymer_Vortex : ItemOptics {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SZ_att_Hndgrd_AK_Zenit : sz_att {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SZ_att_Hndgrd_AK_Zenit_Vortex : ItemOptics {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SZ_att_Hndgrd_AK_Zenit_romeo3 : ItemOptics {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SZ_att_Hndgrd_AK_Zenit_Romeo : ItemOptics {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SZ_att_Hndgrd_AK_Zenit_Pk_06 : ItemOptics {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SZ_att_Hndgrd_AK_Zenit_EOTech : ItemOptics {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SZ_att_Hndgrd_AK_Zenit_OKP7 : ItemOptics {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
@@ -639,6 +719,12 @@ class cfgVehicles {
 		s_recoilControlMisalignmentX = 0.15;
 		s_recoilControlMisalignmentY = 0.15;
 	};
+	class sz_att_TroyGrip : sz_att {
+		s_recoilControlStabilityX = 0.05;
+		s_recoilControlStabilityY = 0.05;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.15;
+	};
 	class sz_att_Comp556 : ItemSuppressor {
 		s_recoilControlMisalignmentX = 0.25;
 		s_recoilControlMisalignmentY = 0.05;
@@ -648,6 +734,62 @@ class cfgVehicles {
 		s_recoilControlMisalignmentY = 0.05;
 	};
 	class sz_fal_compensator_para : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_Compensator556 : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_CompensatorAK : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_CompensatorPistol : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_supressor556 : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_DTK_AK_Compensator : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_CompAK : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_CompAK1 : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_CompAK2 : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_CompAK3 : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_CompAK4 : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_CompAK12 : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_LoneWolf_Compensator : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_tovar_Compensator : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class sz_att_comp12ga : ItemSuppressor {
 		s_recoilControlMisalignmentX = 0.25;
 		s_recoilControlMisalignmentY = 0.05;
 	};
