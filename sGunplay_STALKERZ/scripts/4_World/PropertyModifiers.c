@@ -22,4 +22,12 @@ modded class PropertyModifiers {
 		recoilControlMisalignmentY = Math.Clamp(recoilControlMisalignmentY, -1, 1);
 		recoilControlKick          = Math.Clamp(recoilControlKick, -1, 1);
 	}
+	
+	// TODO improve this
+	override void applyAttachmentModifiers(EntityAI attachment) {
+		for (int i = 0; i < attachment.GetInventory().AttachmentCount(); i++) {
+			applyAttachmentModifiers(attachment.GetInventory().GetAttachmentFromIndex(i));
+		}
+		super.applyAttachmentModifiers(attachment);
+	}
 }
