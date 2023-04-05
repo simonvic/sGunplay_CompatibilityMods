@@ -197,7 +197,8 @@ class cfgWeapons {
 		s_recoilControlKick = 0.75;
 	};
 	class Ultimax100_Base : Rifle_Base {
-		s_recoilControlKick = 0.75;
+		s_recoilControlMisalignmentY = 0.30;
+		s_recoilControlKick = 0.50;
 	};
 	class cz805b_Base : FAL {
 		s_recoilControlStabilityX = 0.15;
@@ -238,6 +239,35 @@ class cfgWeapons {
 		s_recoilControlMisalignmentY = 0.80;
 		s_recoilControlKick = 0.75;
 	};
+	class sz_OTs14_762_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	// I need to fix vss recoil first
+	// class sz_OTs14_9x39_Base : Rifle_Base {
+	// 	s_recoilControlStabilityX = 0.70;
+	// 	s_recoilControlStabilityY = 0.70;
+	// 	s_recoilControlMisalignmentX = 0.50;
+	// 	s_recoilControlMisalignmentY = 0.75;
+	// 	s_recoilControlKick = 0.50;
+	// };
+	class sz_Sig552_Base : AKM_Base {
+		s_recoilControlStabilityX = 0.50;
+		s_recoilControlStabilityY = 0.50;
+		s_recoilControlMisalignmentX = 0.20;
+		s_recoilControlMisalignmentY = 0.20;
+		s_recoilControlKick = 0.75;
+	};
+	class sz_Stoner63A_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.10;
+		s_recoilControlStabilityY = 0.15;
+		s_recoilControlMisalignmentX = 0.30;
+		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlKick = 0.20;
+	};
 };
 
 class cfgVehicles {
@@ -246,6 +276,7 @@ class cfgVehicles {
 	class ItemSuppressor;
 	class ItemOptics;
 	class sz_att;
+	///////////////////////////////////////////////////////////////// BUTTSTOCKS
 	class AK5C_buttstock : Inventory_Base {
 		s_recoilControlStabilityX = 0.45;
 		s_recoilControlStabilityY = 0.45;
@@ -467,6 +498,7 @@ class cfgVehicles {
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.75;
 	};
+	///////////////////////////////////////////////////////////////// HANDGUARDS
 	class G3SG1_Hndgrd : Inventory_Base {
 		s_recoilControlStabilityX = 0.15;
 		s_recoilControlStabilityY = 0.15;
@@ -558,6 +590,18 @@ class cfgVehicles {
 		s_recoilControlMisalignmentY = 0.50;
 	};
 	class SZ_att_Hndgrd_AK_Polymer : sz_att {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SZ_att_hndgrd_sig : sz_att {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SZ_att_hndgrd_sig_picotini : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
@@ -665,6 +709,7 @@ class cfgVehicles {
 		s_recoilControlMisalignmentX = 0.55;
 		s_recoilControlMisalignmentY = 0.50;
 	};
+	////////////////////////////////////////////////////////////////////// GRIPS
 	class sz_M4_KACHndgrd : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
@@ -725,6 +770,7 @@ class cfgVehicles {
 		s_recoilControlMisalignmentX = 0.15;
 		s_recoilControlMisalignmentY = 0.15;
 	};
+	/////////////////////////////////////////////////////////////// COMPENSATORS
 	class sz_att_Comp556 : ItemSuppressor {
 		s_recoilControlMisalignmentX = 0.25;
 		s_recoilControlMisalignmentY = 0.05;
