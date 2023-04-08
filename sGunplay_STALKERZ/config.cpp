@@ -17,6 +17,12 @@ class CfgMods {
 			"World"
 		};
 		class defs {
+			class gameScriptModule {
+				value = "";
+				files[] = {
+					"simonvic/sGunplay_CompatibilityMods/sGunplay_STALKERZ/scripts/3_Game"
+				};
+			};
 			class worldScriptModule {
 				value = "";
 				files[] = {
