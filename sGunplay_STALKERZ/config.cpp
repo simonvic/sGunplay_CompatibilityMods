@@ -274,6 +274,18 @@ class cfgWeapons {
 		s_recoilControlMisalignmentY = 0.50;
 		s_recoilControlKick = 0.20;
 	};
+	class sz_SCARL_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.15;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.55;
+	};
+	class sz_SCARH_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.15;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.55;
+	};
 };
 
 class cfgVehicles {
@@ -326,13 +338,6 @@ class cfgVehicles {
 		s_recoilControlKick = 0.70;
 	};
 	class sz_att_AKFoldingButtstock : sz_att {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.15;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.70;
-	};
-	class sz_att_bttstck_rpk_wood : sz_att {
 		s_recoilControlStabilityX = 0.45;
 		s_recoilControlStabilityY = 0.45;
 		s_recoilControlMisalignmentX = 0.15;
@@ -416,31 +421,31 @@ class cfgVehicles {
 	};
 	class sz_att_bttstck_AK_MagpulZhukov : sz_att {
 		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
+		s_recoilControlStabilityY = 0.47;
 		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlMisalignmentY = 0.27;
+		s_recoilControlKick = 0.77;
 	};
 	class SZ_att_Bttstck_AK_UAS : sz_att {
 		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityY = 0.50;
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.30;
+		s_recoilControlKick = 0.80;
 	};
 	class SZ_att_Bttstck_AK_ZENIT_PT3 : sz_att {
 		s_recoilControlStabilityX = 0.45;
 		s_recoilControlStabilityY = 0.45;
 		s_recoilControlMisalignmentX = 0.20;
 		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlKick = 0.80;
 	};
 	class SZ_att_HKE1_Bttstck : sz_att {
 		s_recoilControlStabilityX = 0.45;
 		s_recoilControlStabilityY = 0.45;
 		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlMisalignmentY = 0.27;
+		s_recoilControlKick = 0.77;
 	};
 	class MP5A2_Bttstck : Inventory_Base {
 		s_recoilControlStabilityX = 0.50;
@@ -453,22 +458,22 @@ class cfgVehicles {
 		s_recoilControlStabilityX = 0.45;
 		s_recoilControlStabilityY = 0.45;
 		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlMisalignmentY = 0.27;
+		s_recoilControlKick = 0.77;
 	};
 	class SZ_att_Bttstck_AK_ZENIT_PT1 : Inventory_Base {
 		s_recoilControlStabilityX = 0.45;
 		s_recoilControlStabilityY = 0.45;
 		s_recoilControlMisalignmentX = 0.20;
 		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlKick = 0.80;
 	};
 	class SZ_att_UBR_Bttstck_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.45;
 		s_recoilControlStabilityY = 0.45;
 		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlMisalignmentY = 0.27;
+		s_recoilControlKick = 0.77;
 	};
 	class sz_AK_WoodBttstck : Inventory_Base {
 		s_recoilControlStabilityX = 0.45;
@@ -477,18 +482,19 @@ class cfgVehicles {
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.75;
 	};
-	class SZ_att_Hndgrd_AK_b30 : Inventory_Base {
+	class sz_ak12buttstock : Inventory_Base {
 		s_recoilControlStabilityX = 0.45;
 		s_recoilControlStabilityY = 0.45;
 		s_recoilControlMisalignmentX = 0.20;
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.75;
 	};
-	class sz_Saiga12_Handguard : Inventory_Base {
-		s_recoilControlStabilityX = 0.20;
-		s_recoilControlStabilityY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+	class sz_att_scar_mk16Buttstock : sz_att {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.20;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.75;
 	};
 	class sz_M4_MPBttstck : Inventory_Base {
 		s_recoilControlStabilityX = 0.45;
@@ -505,6 +511,18 @@ class cfgVehicles {
 		s_recoilControlKick = 0.75;
 	};
 	///////////////////////////////////////////////////////////////// HANDGUARDS
+	class SZ_att_Hndgrd_AK_b30 : Inventory_Base {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class sz_Saiga12_Handguard : Inventory_Base {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
 	class G3SG1_Hndgrd : Inventory_Base {
 		s_recoilControlStabilityX = 0.15;
 		s_recoilControlStabilityY = 0.15;
