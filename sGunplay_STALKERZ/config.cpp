@@ -510,7 +510,14 @@ class cfgVehicles {
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.75;
 	};
+	class sz_ASVAL_Bttstck : sz_att {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.50;
+	};
 	///////////////////////////////////////////////////////////////// HANDGUARDS
+	/*
 	class SZ_att_Hndgrd_AK_b30 : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
@@ -578,12 +585,6 @@ class cfgVehicles {
 		s_recoilControlMisalignmentY = 0.50;
 	};
 	class sz_att_hndgrd_AK_MagpulMoe : sz_att {
-		s_recoilControlStabilityX = 0.20;
-		s_recoilControlStabilityY = 0.20;
-		s_recoilControlMisalignmentX = 0.50;
-		s_recoilControlMisalignmentY = 0.50;
-	};
-	class sz_ASVAL_Bttstck : sz_att {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.50;
@@ -733,6 +734,7 @@ class cfgVehicles {
 		s_recoilControlMisalignmentX = 0.55;
 		s_recoilControlMisalignmentY = 0.50;
 	};
+	*/
 	////////////////////////////////////////////////////////////////////// GRIPS
 	class sz_M4_KACHndgrd : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
@@ -957,5 +959,48 @@ class cfgVehicles {
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.2;
+	};
+	//////////////////////////////////////////////////////////////////// VANILLA
+	class M4_PlasticHndgrd : Inventory_Base {
+		s_recoilControlStabilityX = 0.0;
+		s_recoilControlStabilityY = 0.0;
+		s_recoilControlMisalignmentX = 0.0;
+		s_recoilControlMisalignmentY = 0.0;
+	};
+	class M4_RISHndgrd : Inventory_Base {
+		s_recoilControlStabilityX = 0.0;
+		s_recoilControlStabilityY = 0.0;
+		s_recoilControlMisalignmentX = 0.0;
+		s_recoilControlMisalignmentY = 0.0;
+	};
+	class M4_MPHndgrd : Inventory_Base {
+		s_recoilControlStabilityX = 0.0;
+		s_recoilControlStabilityY = 0.0;
+		s_recoilControlMisalignmentX = 0.0;
+		s_recoilControlMisalignmentY = 0.0;
+	};
+	class AK_WoodHndgrd : Inventory_Base {
+		s_recoilControlStabilityX = 0.0;
+		s_recoilControlStabilityY = 0.0;
+		s_recoilControlMisalignmentX = 0.0;
+		s_recoilControlMisalignmentY = 0.0;
+	};
+	class AK_RailHndgrd : Inventory_Base {
+		s_recoilControlStabilityX = 0.0;
+		s_recoilControlStabilityY = 0.0;
+		s_recoilControlMisalignmentX = 0.0;
+		s_recoilControlMisalignmentY = 0.0;
+	};
+	class AK_PlasticHndgrd : Inventory_Base {
+		s_recoilControlStabilityX = 0.0;
+		s_recoilControlStabilityY = 0.0;
+		s_recoilControlMisalignmentX = 0.0;
+		s_recoilControlMisalignmentY = 0.0;
+	};
+	class AK74_Hndgrd : Inventory_Base {
+		s_recoilControlStabilityX = 0.0;
+		s_recoilControlStabilityY = 0.0;
+		s_recoilControlMisalignmentX = 0.0;
+		s_recoilControlMisalignmentY = 0.0;
 	};
 };
