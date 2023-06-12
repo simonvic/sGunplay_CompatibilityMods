@@ -374,36 +374,36 @@ class cfgVehicles{
 		s_recoilControlKick = 0.70;
 	};
 
-	class ItemOptics;
-	class SNAFU_Elcan_Base : ItemOptics {
+	class ItemOptics_Base;
+	class SNAFU_Elcan_Base : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_pipRadius = 0.5;
 		s_pipMagnification = 0.3;
 		s_pipBlur = 0.03;
 		s_pipChromAber = 0.2;
 	};
-	class SNAFU_Leupold_Mark8_Base : ItemOptics {
+	class SNAFU_Leupold_Mark8_Base : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_pipRadius = 0.2;
 		s_pipMagnification = 0.4;
 		s_pipBlur = 0.025;
 		s_pipChromAber = 0.2;
 	};
-	class SNAFU_Nightforce_Base : ItemOptics {
+	class SNAFU_Nightforce_Base : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_pipRadius = 0.24;
 		s_pipMagnification = 0.4;
 		s_pipBlur = 0.03;
 		s_pipChromAber = 0.3;
 	};
-	class SNAFU_Tango6T_Base : ItemOptics {
+	class SNAFU_Tango6T_Base : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_pipRadius = 0.27;
 		s_pipMagnification = 0.3;
 		s_pipBlur = 0.05;
 		s_pipChromAber = 0.3;
 	};
-	class SNAFU_Trijicon_Base : ItemOptics {
+	class SNAFU_Trijicon_Base : ItemOptics_Base {
 		s_pipRadius = 0.175;
 		s_pipMagnification = 0.5;
 		s_pipBlur = 0.025;
@@ -479,14 +479,14 @@ class cfgVehicles{
 			discretefov[] = {};
 		};
 	};
-	class SNAFU_Kahles_Base : ItemOptics {
+	class SNAFU_Kahles_Base : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_pipRadius = 0.25;
 		s_pipMagnification = 0.4;
 		s_pipBlur = 0.025;
 		s_pipChromAber = 0.2;
 	};
-	class SNAFU_HuntingOptic : ItemOptics {
+	class SNAFU_HuntingOptic : ItemOptics_Base {
 		s_showEnterMisalignment = 1;
 		s_isFullscreen = 1;
 		s_pipRadius = 1.0;
@@ -682,7 +682,8 @@ class cfgWeapons {
 	class SNAFUM1A_Base : Rifle_Base {
 		s_recoilControlKick = 0.75;
 	};
-	class SNAFURSASS_Base : Rifle_Base {
+	class BoltActionRifle_Base;
+	class SNAFURSASS_Base : BoltActionRifle_Base {
 		s_recoilControlMisalignmentX = 0.20;
 		s_recoilControlMisalignmentY = 0.20;
 		s_recoilControlKick = 0.75;

@@ -490,7 +490,7 @@ class cfgVehicles {
 		s_recoilControlMisalignmentX = 0.55;
 		s_recoilControlMisalignmentY = 0.50;
 	};
-	class TF_OTs_14_Groza_Barrel_Grip : Inventory_Base {
+	class TF_OTs_14_Groza_Barrel_Grip : ItemSuppressor {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
