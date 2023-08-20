@@ -22,90 +22,7 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {
-			"sGunplay",
-
-			"BO_MK18_Stocks",
-
-			"BO_Bravo4",
-			"BO_ACOGOptic",
-			"BO_DragonScope",
-			"BO_EotechHHS",
-			"BO_FedorovOptics",
-			"BO_HAMROptic",
-			"BO_HMOptic",
-			"BO_LeupoldMk4",
-			"BO_NFATACR_1_8",
-			"BO_Sight_4_6",
-			"BO_ShmidtBender25",
-			"BO_ShmidtBender20",
-			"BO_SpecterDROptic",
-			"BO_Spitfire",
-			"BO_SVT40Optic",
-			"BO_Tango6",
-			"BO_VortexRazor",
-			"BO_Vudu",
-			"BO_AccuPowerOptic",
-
-			"BO_M134",
-			"BO_M240B",
-			"BO_M249",
-			"BO_MG42",
-			"BO_PKM",
-			"BO_U100",
-			"BO_M60",
-
-			"BO_GlockPDW",
-			"BO_Tec9",
-			"BO_ACR",
-			"BO_AK74",
-			"BO_AKM",
-			"BO_AKS74U",
-			"BO_AN94",
-			"BO_AR15",
-			"BO_ARX160",
-			"BO_MK18",
-			"BO_FedorovAvtomat",
-			"BO_FG42",
-			"BO_FG42M",
-			"BO_FNFAL",
-			"BO_G3A3",
-			"BO_G36",
-			"BlackoutRifles_GROZA",
-			"BO_HK416",
-			"BO_HKG28",
-			"BO_HoneyBadger",
-			"BO_M1A",
-			"BO_M4",
-			"BO_M16A4",
-			"BO_M1981",
-			"BO_MDR",
-			"BO_Mk14",
-			"BO_RPK16",
-			"BO_SCARH",
-			"BO_Sig552",
-			"BO_Stoner63A",
-			"BO_TAR21",
-			"BO_TheFix",
-			"BlackoutRifles_TKB0146",
-			"BO_PKP",
-
-			"BO_AA12",
-			"BO_USAS12",
-			"BO_VR80",
-
-			"BO_EVO3A1",
-			"BO_KH9",
-			"BO_MKGS",
-			"TheBO_Firearms_MP5",
-			"BO_MP9",
-			"BO_PDWR",
-			"BO_PPSh",
-			"BO_Thompson",
-			"BO_UZI",
-			"BO_Vector",
-			"BO_PP1901",
-			"BO_AK5C"
-			
+			"sGunplay"
 		};
 	};
 };
@@ -194,8 +111,7 @@ class cfgWeapons {
 		s_recoilControlMisalignmentY = 0.75;
 		s_recoilControlKick = 0.50;
 	};
-	class MP5K;
-	class BO_EVO3A1 : MP5K {
+	class BO_EVO3A1 : Rifle_Base {
 		s_recoilControlStabilityX = 0.70;
 		s_recoilControlStabilityY = 0.70;
 		s_recoilControlMisalignmentX = 0.50;
@@ -548,6 +464,27 @@ class cfgWeapons {
 		s_recoilControlMisalignmentY = 0.75;
 		s_recoilControlKick = 0.50;
 	};
+	class BO_AR10_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.65;
+		s_recoilControlStabilityY = 0.65;
+		s_recoilControlMisalignmentX = 0.75;
+		s_recoilControlMisalignmentY = 0.80;
+		s_recoilControlKick = 0.75;
+	};
+	class BO_PP2000_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.65;
+		s_recoilControlKick = 0.75;
+	};
+	class BO_UMP45_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.75;
+	};
 };
 
 class cfgVehicles {
@@ -573,6 +510,19 @@ class cfgVehicles {
 		s_recoilControlMisalignmentX = 0.00;
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.75;
+	};
+	class BO_CAR15_Handguard : Inventory_Base {
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.15;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class BO_CAR15_Bttstk : Inventory_Base {
+		s_recoilControlStabilityX = 0.50;
+		s_recoilControlStabilityY = 0.50;
+		s_recoilControlMisalignmentX = 0.20;
+		s_recoilControlMisalignmentY = 0.30;
+		s_recoilControlKick = 0.72;
 	};
 
 	class ItemOptics_Base;
@@ -708,5 +658,11 @@ class cfgVehicles {
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
+	};
+
+	class ItemSuppressor;
+	class BO_P30L_Compensator : ItemSuppressor {
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.15;
 	};
 };
