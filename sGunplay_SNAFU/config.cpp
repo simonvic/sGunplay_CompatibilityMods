@@ -4,58 +4,7 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {
-			"sGunplay",
-			"Elcan_Weapons_Optics",
-			"SNAFU_HuntingOptic",
-			"SNAFU_Kahles_Optics",
-			"Leupold_Mark8_Weapons_Optics",
-			"SNAFU_Nightforce_Optics",
-			"SNAFU_Tango6T_Weapons_Optics",
-			"Trijicon_Weapons_Optics",
-
-			"SNAFU_AK_Attachments",
-			"SNAFUDSA_SA58",
-			"SNAFU_Foregrips",
-			"SNAFU_M4_MOE_Handguards",
-			"SNAFU_M4_Modular_ReceiverGrips",
-			"SNAFU_M4_Modular_Foregrips",
-			"SNAFU_M4_Modular_Handguards",
-			"SNAFU_M4_Modular_Muzzels",
-			"SNAFU_M4_Stocks",
-
-			"SNAFU_AK103A",
-			"SNAFU_RPK16Gun",
-			"SNAFU_AEK545",
-			"SNAFU_CZ805_CFG",
-			"SNAFU_AK5C",
-			"SNAFU_BR18",
-			"SNAFU_Bren",
-			"SNAFU_M60",
-			"SNAFU_RDB",
-			"SNAFU_M1918A2",
-			"SNAFU_M70",
-			"SNAFU_U100",
-			"SNAFU_MP9",
-			"SNAFU_MPX",
-			"Snafu_pkp",
-			"SNAFU_SR25",
-			"SNAFU_MAR10",
-			"Snafu_ScarH",
-			"SNAFUG3A3",
-			"SNAFUMDAR",
-			"SNAFUPPSh",
-			"SNAFURPD",
-			"SNAFUSten",
-			"SNAFUASh12",
-			"SNAFUHoneyBadger",
-			"SNAFUKH9",
-			"SNAFUM1A",
-			"SNAFURSASS",
-			"SNAFUTAR21",
-			"SNAFUPPSKN",
-			"SNAFU_PDW",
-			"SNSA58_CFG",
-			"GCGN_M249"
+			"sGunplay"
 		};
 	};
 };
@@ -700,6 +649,48 @@ class cfgWeapons {
 		s_recoilControlStabilityY = 0.50;
 		s_recoilControlMisalignmentX = 0.50;
 		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlKick = 0.75;
+	};
+	class ACR_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.75;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.75;
+	};
+	class HK416_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.75;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.75;
+	};
+	class IA2_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.75;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.75;
+	};
+	class SCAR_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.75;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.75;
+	};
+	class SG550_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.75;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.75;
+	};
+	class SG552_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.75;
+		s_recoilControlMisalignmentY = 0.75;
 		s_recoilControlKick = 0.75;
 	};
 };
