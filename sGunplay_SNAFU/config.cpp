@@ -4,7 +4,11 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {
-			"sGunplay"
+			"sGunplay",
+			"Elcan_Weapons_Optics",
+			"Leupold_Mark8_Weapons_Optics",
+			"SNAFU_Nightforce_Optics",
+			"SNAFU_Tango6T_Weapons_Optics"
 		};
 	};
 };
@@ -325,122 +329,67 @@ class cfgVehicles{
 
 	class ItemOptics_Base;
 	class SNAFU_Elcan_Base : ItemOptics_Base {
-		s_isFullscreen = 1;
-		s_pipRadius = 0.5;
+		s_pipRadius = 0.45;
 		s_pipMagnification = 0.3;
-		s_pipBlur = 0.03;
+		s_pipBlur = 0.02;
 		s_pipChromAber = 0.2;
+		class OpticsInfo {
+			PPBlurProperties=0.6;
+		};
 	};
 	class SNAFU_Leupold_Mark8_Base : ItemOptics_Base {
+		s_nearPlaneOverride = 0.4;
 		s_isFullscreen = 1;
-		s_pipRadius = 0.2;
-		s_pipMagnification = 0.4;
-		s_pipBlur = 0.025;
-		s_pipChromAber = 0.2;
+		s_pipRadius = 0.21;
+		s_pipMagnification = 0.3;
+		s_pipBlur = 0.02;
+		s_pipChromAber = 0.3;
+		class OpticsInfo {
+			PPBlurProperties=0.6;
+		};
 	};
 	class SNAFU_Nightforce_Base : ItemOptics_Base {
+		s_nearPlaneOverride = 0.4;
 		s_isFullscreen = 1;
 		s_pipRadius = 0.24;
-		s_pipMagnification = 0.4;
+		s_pipMagnification = 0.3;
 		s_pipBlur = 0.03;
 		s_pipChromAber = 0.3;
+		class OpticsInfo {
+			PPBlurProperties=0.6;
+		};
 	};
 	class SNAFU_Tango6T_Base : ItemOptics_Base {
-		s_isFullscreen = 1;
-		s_pipRadius = 0.27;
+		s_nearPlaneOverride = 0.3;
+		s_pipRadius = 0.3;
 		s_pipMagnification = 0.3;
-		s_pipBlur = 0.05;
+		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
+		class OpticsInfo {
+			PPBlurProperties=0.6;
+		};
 	};
 	class SNAFU_Trijicon_Base : ItemOptics_Base {
+		s_nearPlaneOverride = 0.25;
 		s_pipRadius = 0.175;
 		s_pipMagnification = 0.5;
 		s_pipBlur = 0.025;
 		s_pipChromAber = 0.2;
-		class OpticsInfo {
-			opticsZoomMin = "0.4/4";
-			opticsZoomMax = "0.4/4";
-			opticsZoomInit = "0.4/4";
-			discretefov[] = {};
-		};
-	};
-	class SNAFU_Trijicon : SNAFU_Trijicon_Base {
-		class OpticsInfo {
-			opticsZoomMin = "0.4/6";
-			opticsZoomMax = "0.4/6";
-			opticsZoomInit = "0.4/6";
-			discretefov[] = {};
-		};
-	};
-	class SNAFU_Trijicon_Docter : SNAFU_Trijicon_Base {
-		class OpticsInfo {
-			opticsZoomMin = "0.4/6";
-			opticsZoomMax = "0.4/6";
-			opticsZoomInit = "0.4/6";
-			discretefov[] = {};
-		};
-	};
-	class SNAFU_AKTrijicon : SNAFU_Trijicon_Base {
-		class OpticsInfo {
-			opticsZoomMin = "0.4/6";
-			opticsZoomMax = "0.4/6";
-			opticsZoomInit = "0.4/6";
-			discretefov[] = {};
-		};
-	};
-	class SNAFU_AKTrijicon_Docter : SNAFU_Trijicon_Base {
-		class OpticsInfo {
-			opticsZoomMin = "0.4/6";
-			opticsZoomMax = "0.4/6";
-			opticsZoomInit = "0.4/6";
-			discretefov[] = {};
-		};
-	};
-	class SNAFU_HTrijicon : SNAFU_Trijicon_Base {
-		class OpticsInfo {
-			opticsZoomMin = "0.4/6";
-			opticsZoomMax = "0.4/6";
-			opticsZoomInit = "0.4/6";
-			discretefov[] = {};
-		};
-	};
-	class SNAFU_HTrijicon_Docter : SNAFU_Trijicon_Base {
-		class OpticsInfo {
-			opticsZoomMin = "0.4/6";
-			opticsZoomMax = "0.4/6";
-			opticsZoomInit = "0.4/6";
-			discretefov[] = {};
-		};
-	};
-	class SNAFU_MTrijicon : SNAFU_Trijicon_Base {
-		class OpticsInfo {
-			opticsZoomMin = "0.4/6";
-			opticsZoomMax = "0.4/6";
-			opticsZoomInit = "0.4/6";
-			discretefov[] = {};
-		};
-	};
-	class SNAFU_MTrijicon_Docter : SNAFU_Trijicon_Base {
-		class OpticsInfo {
-			opticsZoomMin = "0.4/6";
-			opticsZoomMax = "0.4/6";
-			opticsZoomInit = "0.4/6";
-			discretefov[] = {};
-		};
 	};
 	class SNAFU_Kahles_Base : ItemOptics_Base {
+		s_nearPlaneOverride = 0.2;
 		s_isFullscreen = 1;
-		s_pipRadius = 0.25;
-		s_pipMagnification = 0.4;
-		s_pipBlur = 0.025;
-		s_pipChromAber = 0.2;
+		s_pipRadius = 0.3;
+		s_pipMagnification = 0.2;
+		s_pipBlur = 0.04;
+		s_pipChromAber = 0.3;
 	};
 	class SNAFU_HuntingOptic : ItemOptics_Base {
 		s_showEnterMisalignment = 1;
 		s_isFullscreen = 1;
-		s_pipRadius = 1.0;
-		s_pipMagnification = 0.2;
-		s_pipBlur = 0.001;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
+		s_pipBlur = 0.01;
 		s_pipChromAber = 0.5;
 	};
 };
@@ -659,6 +608,13 @@ class cfgWeapons {
 		s_recoilControlKick = 0.75;
 	};
 	class HK416_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.75;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.75;
+	};
+	class SNHK417_Base : Rifle_Base {
 		s_recoilControlStabilityX = 0.70;
 		s_recoilControlStabilityY = 0.70;
 		s_recoilControlMisalignmentX = 0.75;
