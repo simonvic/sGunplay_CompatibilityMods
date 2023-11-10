@@ -528,7 +528,8 @@ class cfgVehicles {
 	class ItemOptics_Base;
 	class HuntingOptic;
 	class BO_AccuPowerOptic : ItemOptics_Base {
-		s_pipRadius = 0.24;
+		s_nearPlaneOverride = 0.3;
+		s_pipRadius = 0.22;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
@@ -536,24 +537,27 @@ class cfgVehicles {
 	class BO_TheFix_Optic : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_showEnterMisalignment = 1;
-		s_pipRadius = 1;
-		s_pipMagnification = 0.314;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class BO_ACOGOptic : ItemOptics_Base {
+		s_nearPlaneOverride = 0.08;
 		s_pipRadius = 0.314;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class BO_Bravo4 : ItemOptics_Base {
+		s_nearPlaneOverride = 0.1;
 		s_pipRadius = 0.4;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class BO_DragonScope : ItemOptics_Base {
+		s_nearPlaneOverride = 0.25;
 		s_pipRadius = 0.32;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
@@ -578,6 +582,7 @@ class cfgVehicles {
 		s_pipChromAber = 0.3;
 	};
 	class BO_HMOptic_Base : HuntingOptic {
+		s_nearPlaneOverride = 0.25;
 		s_isFullscreen = 1;
 		s_showEnterMisalignment = 1;
 		s_pipRadius = 1.0;
@@ -588,18 +593,20 @@ class cfgVehicles {
 	class BO_LeupoldMk4 : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_showEnterMisalignment = 1;
-		s_pipRadius = 1.0;
-		s_pipMagnification = 0.314;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class BO_NFATACR_1_8 : ItemOptics_Base {
+		s_nearPlaneOverride = 0.55;
 		s_pipRadius = 0.17;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class BO_Sight_4_6 : ItemOptics_Base {
+		s_nearPlaneOverride = 0.25;
 		s_pipRadius = 0.23;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
@@ -608,26 +615,28 @@ class cfgVehicles {
 	class BO_ShmidtBender25 : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_showEnterMisalignment = 1;
-		s_pipRadius = 1.0;
-		s_pipMagnification = 0.314;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class BO_ShmidtBender20 : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_showEnterMisalignment = 1;
-		s_pipRadius = 1.0;
-		s_pipMagnification = 0.314;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class BO_SpecterDROptic : ItemOptics_Base {
+		s_nearPlaneOverride = 0.2;
 		s_pipRadius = 0.35;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class BO_Spitfire : ItemOptics_Base {
+		s_nearPlaneOverride = 0.15;
 		s_pipRadius = 0.21;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
@@ -636,24 +645,27 @@ class cfgVehicles {
 	class BO_SVT40Optic : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_showEnterMisalignment = 1;
-		s_pipRadius = 1.0;
-		s_pipMagnification = 0.314;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class BO_Tango6_Base : ItemOptics_Base {
+		s_nearPlaneOverride = 0.3;
 		s_pipRadius = 0.22;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class BO_VortexRazor_Base : ItemOptics_Base {
+		s_nearPlaneOverride = 0.5;
 		s_pipRadius = 0.18;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class BO_Vudu_Base : ItemOptics_Base {
+		s_nearPlaneOverride = 0.35;
 		s_pipRadius = 0.23;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
