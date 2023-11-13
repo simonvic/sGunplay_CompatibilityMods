@@ -22,7 +22,9 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {
-			"sGunplay"
+			"sGunplay",
+			"BO_MCXTacops",
+			"BO_SA58"
 		};
 	};
 };
@@ -485,6 +487,26 @@ class cfgWeapons {
 		s_recoilControlMisalignmentY = 0.75;
 		s_recoilControlKick = 0.75;
 	};
+	class BO_SA58_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.15;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlKick = 0.00;
+	};
+	class BO_MCXSpear_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.15;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class BO_MCXTacops_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.00;
+		s_recoilControlStabilityY = 0.00;
+		s_recoilControlMisalignmentX = 0.00;
+		s_recoilControlMisalignmentY = 0.00;
+		s_recoilControlKick = 0.00;
+	};
 };
 
 class cfgVehicles {
@@ -511,11 +533,26 @@ class cfgVehicles {
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.75;
 	};
-	class BO_CAR15_Handguard : Inventory_Base {
-		s_recoilControlStabilityX = 0.15;
-		s_recoilControlStabilityY = 0.15;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+	class BO_MCXTacops_Bttstck_Base : Inventory_Base {
+		s_recoilControlStabilityX = 0.50;
+		s_recoilControlStabilityY = 0.50;
+		s_recoilControlMisalignmentX = 0.00;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.75;
+	};
+	class BO_MCXSpear_Bttstck_Base : Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.35;
+		s_recoilControlKick = 0.75;
+	};
+	class BO_SA58_Buttstock : Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.35;
+		s_recoilControlKick = 0.75;
 	};
 	class BO_CAR15_Bttstk : Inventory_Base {
 		s_recoilControlStabilityX = 0.50;
@@ -523,6 +560,18 @@ class cfgVehicles {
 		s_recoilControlMisalignmentX = 0.20;
 		s_recoilControlMisalignmentY = 0.30;
 		s_recoilControlKick = 0.72;
+	};
+	class BO_CAR15_Handguard : Inventory_Base {
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.15;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class BO_MCXTacops_Handguard : Inventory_Base {
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.15;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
 	};
 
 	class ItemOptics_Base;
@@ -588,6 +637,36 @@ class cfgVehicles {
 		s_pipRadius = 1.0;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
+		s_pipChromAber = 0.3;
+	};
+	class BO_M1Garand_M84_Scope : HuntingOptic {
+		s_isFullscreen = 1;
+		s_showEnterMisalignment = 1;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
+		s_pipBlur = 0.01;
+		s_pipChromAber = 0.3;
+	};
+	class M1903Optic : ItemOptics_Base {
+		s_isFullscreen = 1;
+		s_showEnterMisalignment = 1;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
+		s_pipBlur = 0.01;
+		s_pipChromAber = 0.3;
+	};
+	class BO_GrozaOptic : ItemOptics_Base {
+		s_isFullscreen = 1;
+		s_showEnterMisalignment = 1;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
+		s_pipBlur = 0.01;
+		s_pipChromAber = 0.3;
+	};
+	class BO_G36Optic : ItemOptics_Base {
+		s_pipRadius = 0.25;
+		s_pipMagnification = 0.3;
+		s_pipBlur = 0.03;
 		s_pipChromAber = 0.3;
 	};
 	class BO_LeupoldMk4 : ItemOptics_Base {
