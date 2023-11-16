@@ -32,27 +32,83 @@ class CfgMods {
 	};
 };
 
-class cfgVehicles{
+class CfgVehicles {
 
+	///////////////////////////////////////////////////////////////////// OPTICS
+	class ItemOptics_Base;
+	class SNAFU_Elcan_Base : ItemOptics_Base {
+		s_pipRadius = 0.45;
+		s_pipMagnification = 0.3;
+		s_pipBlur = 0.02;
+		s_pipChromAber = 0.2;
+		class OpticsInfo {
+			PPBlurProperties=0.6;
+		};
+	};
+	class SNAFU_Leupold_Mark8_Base : ItemOptics_Base {
+		s_nearPlaneOverride = 0.4;
+		s_isFullscreen = 1;
+		s_pipRadius = 0.21;
+		s_pipMagnification = 0.3;
+		s_pipBlur = 0.02;
+		s_pipChromAber = 0.3;
+		class OpticsInfo {
+			PPBlurProperties=0.6;
+		};
+	};
+	class SNAFU_Nightforce_Base : ItemOptics_Base {
+		s_nearPlaneOverride = 0.4;
+		s_isFullscreen = 1;
+		s_pipRadius = 0.24;
+		s_pipMagnification = 0.3;
+		s_pipBlur = 0.03;
+		s_pipChromAber = 0.3;
+		class OpticsInfo {
+			PPBlurProperties=0.6;
+		};
+	};
+	class SNAFU_Tango6T_Base : ItemOptics_Base {
+		s_nearPlaneOverride = 0.3;
+		s_pipRadius = 0.3;
+		s_pipMagnification = 0.3;
+		s_pipBlur = 0.01;
+		s_pipChromAber = 0.3;
+		class OpticsInfo {
+			PPBlurProperties=0.6;
+		};
+	};
+	class SNAFU_Trijicon_Base : ItemOptics_Base {
+		s_nearPlaneOverride = 0.25;
+		s_pipRadius = 0.175;
+		s_pipMagnification = 0.5;
+		s_pipBlur = 0.025;
+		s_pipChromAber = 0.2;
+	};
+	class SNAFU_Kahles_Base : ItemOptics_Base {
+		s_nearPlaneOverride = 0.2;
+		s_isFullscreen = 1;
+		s_pipRadius = 0.3;
+		s_pipMagnification = 0.2;
+		s_pipBlur = 0.04;
+		s_pipChromAber = 0.3;
+	};
+	class SNAFU_HuntingOptic : ItemOptics_Base {
+		s_showEnterMisalignment = 1;
+		s_isFullscreen = 1;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
+		s_pipBlur = 0.01;
+		s_pipChromAber = 0.5;
+	};
+	
 	class Inventory_Base;
+	///////////////////////////////////////////////////////////////// BUTTSTOCKS
 	class SNAFU_M249Stock_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.10;
-		s_recoilControlStabilityY = 0.50;
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
 		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.20;
+		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.75;
-	};
-	class SNAFU_M249HG_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.20;
-		s_recoilControlStabilityY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
-	};
-	class FGrip_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.20;
-		s_recoilControlStabilityY = 0.20;
-		s_recoilControlMisalignmentX = 0.40;
-		s_recoilControlMisalignmentY = 0.50;
 	};
 	class SNAFU_AK19_Stock : Inventory_Base {
 		s_recoilControlStabilityX = 0.10;
@@ -68,26 +124,83 @@ class cfgVehicles{
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.70;
 	};
-	class SNAFU_AK_HG : Inventory_Base {
-		s_recoilControlStabilityX = 0.20;
-		s_recoilControlStabilityY = 0.20;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
-	};
-	class SNAFU_AK19Muzzel : Inventory_Base {
-		s_recoilControlMisalignmentX = 0.30;
-		s_recoilControlMisalignmentY = 0.05;
-	};
-	class SNAFU_AK308Muzzel : Inventory_Base {
-		s_recoilControlMisalignmentX = 0.30;
-		s_recoilControlMisalignmentY = 0.05;
-	};
 	class SNAFUDSASA58_Stock : Inventory_Base {
 		s_recoilControlStabilityX = 0.10;
 		s_recoilControlStabilityY = 0.15;
 		s_recoilControlMisalignmentX = 0.15;
 		s_recoilControlMisalignmentY = 0.25;
 		s_recoilControlKick = 0.70;
+	};
+
+	class SNAFU_M4SS_Stock: Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.70;
+	};
+	class SNAFU_MK47_Stock: Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.70;
+	};
+	class SNAFU_MOE_Stock: Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.70;
+	};
+	class SNAFU_PRSGen3_Stock: Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.70;
+	};
+	class SNAFU_SCQR_Stock: Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.70;
+	};
+	class SNAFU_SADAR_Stock: Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.70;
+	};
+	class SNAFU_SBA_Stock: Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.70;
+	};
+	class SNAFU_UBR_Stock: Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.15;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.70;
+	};
+	
+	///////////////////////////////////////////////////////////////// HANDGUARDS
+	class SNAFU_M249HG_Base : Inventory_Base {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SNAFU_AK_HG : Inventory_Base {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
 	};
 	class SNAFU_DSAHG1 : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
@@ -113,50 +226,7 @@ class cfgVehicles{
 		s_recoilControlMisalignmentX = 0.35;
 		s_recoilControlMisalignmentY = 0.30;
 	};
-	class SNAFU_AFG_02_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.10;
-		s_recoilControlStabilityY = 0.10;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.15;
-	};
-	class SNAFU_FGCR_Grip : Inventory_Base {
-		s_recoilControlStabilityX = 0.10;
-		s_recoilControlStabilityY = 0.10;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.15;
-	};
-	class SNAFU_FGKAC_Grip : Inventory_Base {
-		s_recoilControlStabilityX = 0.10;
-		s_recoilControlStabilityY = 0.10;
-		s_recoilControlMisalignmentX = 0.25;
-		s_recoilControlMisalignmentY = 0.20;
-	};
-	class SNAFU_PistolGripColtA2 : Inventory_Base {
-		s_recoilControlStabilityX = 0.10;
-		s_recoilControlStabilityY = 0.10;
-		s_recoilControlMisalignmentX = 0.10;
-		s_recoilControlMisalignmentY = 0.10;
-	};
-	
 	class SNAFU_GADAR: Inventory_Base {
-		s_recoilControlStabilityX = 0.10;
-		s_recoilControlStabilityY = 0.10;
-		s_recoilControlMisalignmentX = 0.35;
-		s_recoilControlMisalignmentY = 0.30;
-	};
-	class SNAFU_HG625: Inventory_Base {
-		s_recoilControlStabilityX = 0.10;
-		s_recoilControlStabilityY = 0.10;
-		s_recoilControlMisalignmentX = 0.35;
-		s_recoilControlMisalignmentY = 0.30;
-	};
-	class SNAFU_HGGS: Inventory_Base {
-		s_recoilControlStabilityX = 0.10;
-		s_recoilControlStabilityY = 0.10;
-		s_recoilControlMisalignmentX = 0.35;
-		s_recoilControlMisalignmentY = 0.30;
-	};
-	class SNAFU_MK47HG: Inventory_Base {
 		s_recoilControlStabilityX = 0.10;
 		s_recoilControlStabilityY = 0.10;
 		s_recoilControlMisalignmentX = 0.35;
@@ -252,7 +322,66 @@ class cfgVehicles{
 		s_recoilControlMisalignmentX = 0.55;
 		s_recoilControlMisalignmentY = 0.50;
 	};
+	class SNAFU_HG625: Inventory_Base {
+		s_recoilControlStabilityX = 0.10;
+		s_recoilControlStabilityY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
+	};
+	class SNAFU_HGGS: Inventory_Base {
+		s_recoilControlStabilityX = 0.10;
+		s_recoilControlStabilityY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
+	};
+	class SNAFU_MK47HG: Inventory_Base {
+		s_recoilControlStabilityX = 0.10;
+		s_recoilControlStabilityY = 0.10;
+		s_recoilControlMisalignmentX = 0.35;
+		s_recoilControlMisalignmentY = 0.30;
+	};
 
+	////////////////////////////////////////////////////////////////////// GRIPS
+	class FGrip_Base : Inventory_Base {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.40;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class SNAFU_AFG_02_Base : Inventory_Base {
+		s_recoilControlStabilityX = 0.10;
+		s_recoilControlStabilityY = 0.10;
+		s_recoilControlMisalignmentX = 0.20;
+		s_recoilControlMisalignmentY = 0.15;
+	};
+	class SNAFU_FGCR_Grip : Inventory_Base {
+		s_recoilControlStabilityX = 0.10;
+		s_recoilControlStabilityY = 0.10;
+		s_recoilControlMisalignmentX = 0.20;
+		s_recoilControlMisalignmentY = 0.15;
+	};
+	class SNAFU_FGKAC_Grip : Inventory_Base {
+		s_recoilControlStabilityX = 0.10;
+		s_recoilControlStabilityY = 0.10;
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.20;
+	};
+	class SNAFU_PistolGripColtA2 : Inventory_Base {
+		s_recoilControlStabilityX = 0.10;
+		s_recoilControlStabilityY = 0.10;
+		s_recoilControlMisalignmentX = 0.10;
+		s_recoilControlMisalignmentY = 0.10;
+	};
+
+	/////////////////////////////////////////////////////////////// COMPENSATORS
+	class SNAFU_AK19Muzzel : Inventory_Base {
+		s_recoilControlMisalignmentX = 0.30;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class SNAFU_AK308Muzzel : Inventory_Base {
+		s_recoilControlMisalignmentX = 0.30;
+		s_recoilControlMisalignmentY = 0.05;
+	};
 	class SNAFU_MuzzelFF: Inventory_Base {
 		s_recoilControlMisalignmentX = 0.30;
 		s_recoilControlMisalignmentY = 0.05;
@@ -268,129 +397,6 @@ class cfgVehicles{
 	class Test_SNAFU_MuzzelF: Inventory_Base {
 		s_recoilControlMisalignmentX = 0.30;
 		s_recoilControlMisalignmentY = 0.05;
-	};
-
-	class SNAFU_M4SS_Stock: Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.15;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.70;
-	};
-	class SNAFU_MK47_Stock: Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.15;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.70;
-	};
-	class SNAFU_MOE_Stock: Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.15;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.70;
-	};
-	class SNAFU_PRSGen3_Stock: Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.15;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.70;
-	};
-	class SNAFU_SCQR_Stock: Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.15;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.70;
-	};
-	class SNAFU_SADAR_Stock: Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.15;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.70;
-	};
-	class SNAFU_SBA_Stock: Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.15;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.70;
-	};
-	class SNAFU_UBR_Stock: Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.15;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.70;
-	};
-
-	class ItemOptics_Base;
-	class SNAFU_Elcan_Base : ItemOptics_Base {
-		s_pipRadius = 0.45;
-		s_pipMagnification = 0.3;
-		s_pipBlur = 0.02;
-		s_pipChromAber = 0.2;
-		class OpticsInfo {
-			PPBlurProperties=0.6;
-		};
-	};
-	class SNAFU_Leupold_Mark8_Base : ItemOptics_Base {
-		s_nearPlaneOverride = 0.4;
-		s_isFullscreen = 1;
-		s_pipRadius = 0.21;
-		s_pipMagnification = 0.3;
-		s_pipBlur = 0.02;
-		s_pipChromAber = 0.3;
-		class OpticsInfo {
-			PPBlurProperties=0.6;
-		};
-	};
-	class SNAFU_Nightforce_Base : ItemOptics_Base {
-		s_nearPlaneOverride = 0.4;
-		s_isFullscreen = 1;
-		s_pipRadius = 0.24;
-		s_pipMagnification = 0.3;
-		s_pipBlur = 0.03;
-		s_pipChromAber = 0.3;
-		class OpticsInfo {
-			PPBlurProperties=0.6;
-		};
-	};
-	class SNAFU_Tango6T_Base : ItemOptics_Base {
-		s_nearPlaneOverride = 0.3;
-		s_pipRadius = 0.3;
-		s_pipMagnification = 0.3;
-		s_pipBlur = 0.01;
-		s_pipChromAber = 0.3;
-		class OpticsInfo {
-			PPBlurProperties=0.6;
-		};
-	};
-	class SNAFU_Trijicon_Base : ItemOptics_Base {
-		s_nearPlaneOverride = 0.25;
-		s_pipRadius = 0.175;
-		s_pipMagnification = 0.5;
-		s_pipBlur = 0.025;
-		s_pipChromAber = 0.2;
-	};
-	class SNAFU_Kahles_Base : ItemOptics_Base {
-		s_nearPlaneOverride = 0.2;
-		s_isFullscreen = 1;
-		s_pipRadius = 0.3;
-		s_pipMagnification = 0.2;
-		s_pipBlur = 0.04;
-		s_pipChromAber = 0.3;
-	};
-	class SNAFU_HuntingOptic : ItemOptics_Base {
-		s_showEnterMisalignment = 1;
-		s_isFullscreen = 1;
-		s_pipRadius = 2.0;
-		s_pipMagnification = 0.1;
-		s_pipBlur = 0.01;
-		s_pipChromAber = 0.5;
 	};
 };
 
