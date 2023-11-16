@@ -375,30 +375,52 @@ class CfgVehicles {
 		s_recoilControlMisalignmentX = 0.05;
 		s_recoilControlMisalignmentY = 0.05;
 	};
+	class SNAFU_SR3Grip : Inventory_Base {
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.05;
+	};
 
 	/////////////////////////////////////////////////////////////// COMPENSATORS
 	class SNAFU_AK19Muzzel : Inventory_Base {
-		s_recoilControlMisalignmentX = 0.30;
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.05;
+		s_recoilControlMisalignmentX = 0.10;
 		s_recoilControlMisalignmentY = 0.05;
 	};
 	class SNAFU_AK308Muzzel : Inventory_Base {
-		s_recoilControlMisalignmentX = 0.30;
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.05;
+		s_recoilControlMisalignmentX = 0.10;
 		s_recoilControlMisalignmentY = 0.05;
 	};
 	class SNAFU_MuzzelFF: Inventory_Base {
-		s_recoilControlMisalignmentX = 0.30;
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.05;
+		s_recoilControlMisalignmentX = 0.10;
 		s_recoilControlMisalignmentY = 0.05;
 	};
 	class SNAFU_MK47Muzzel: Inventory_Base {
-		s_recoilControlMisalignmentX = 0.30;
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.05;
+		s_recoilControlMisalignmentX = 0.10;
 		s_recoilControlMisalignmentY = 0.05;
 	};
 	class SNAFU_HeramuzzelF: Inventory_Base {
-		s_recoilControlMisalignmentX = 0.30;
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.05;
+		s_recoilControlMisalignmentX = 0.10;
 		s_recoilControlMisalignmentY = 0.05;
 	};
 	class Test_SNAFU_MuzzelF: Inventory_Base {
-		s_recoilControlMisalignmentX = 0.30;
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.05;
+		s_recoilControlMisalignmentX = 0.10;
+		s_recoilControlMisalignmentY = 0.05;
+	};
+	class SNAFU_Shotgunchoke_Base : Inventory_Base {
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.05;
+		s_recoilControlMisalignmentX = 0.10;
 		s_recoilControlMisalignmentY = 0.05;
 	};
 };
