@@ -510,70 +510,7 @@ class cfgWeapons {
 };
 
 class cfgVehicles {
-
-	class Inventory_Base;
-	class BO_SOPMODBttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.25;
-		s_recoilControlMisalignmentY = 0.35;
-		s_recoilControlKick = 0.75;
-	};
-	class BO_MK18Bttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.25;
-		s_recoilControlMisalignmentY = 0.35;
-		s_recoilControlKick = 0.75;
-	};
-	class BO_PP1901_Bttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.50;
-		s_recoilControlStabilityY = 0.50;
-		s_recoilControlMisalignmentX = 0.00;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
-	};
-	class BO_MCXTacops_Bttstck_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.50;
-		s_recoilControlStabilityY = 0.50;
-		s_recoilControlMisalignmentX = 0.00;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
-	};
-	class BO_MCXSpear_Bttstck_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.25;
-		s_recoilControlMisalignmentY = 0.35;
-		s_recoilControlKick = 0.75;
-	};
-	class BO_SA58_Buttstock : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.25;
-		s_recoilControlMisalignmentY = 0.35;
-		s_recoilControlKick = 0.75;
-	};
-	class BO_CAR15_Bttstk : Inventory_Base {
-		s_recoilControlStabilityX = 0.50;
-		s_recoilControlStabilityY = 0.50;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.30;
-		s_recoilControlKick = 0.72;
-	};
-	class BO_CAR15_Handguard : Inventory_Base {
-		s_recoilControlStabilityX = 0.15;
-		s_recoilControlStabilityY = 0.15;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
-	};
-	class BO_MCXTacops_Handguard : Inventory_Base {
-		s_recoilControlStabilityX = 0.15;
-		s_recoilControlStabilityY = 0.15;
-		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
-	};
-
+	///////////////////////////////////////////////////////////////////// OPTICS
 	class ItemOptics_Base;
 	class HuntingOptic;
 	class BO_AccuPowerOptic : ItemOptics_Base {
@@ -751,6 +688,74 @@ class cfgVehicles {
 		s_pipChromAber = 0.3;
 	};
 
+	///////////////////////////////////////////////////////////////// BUTTSTOCKS
+	class Inventory_Base;
+	class BO_SOPMODBttstck : Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.35;
+		s_recoilControlKick = 0.75;
+	};
+	class BO_MK18Bttstck : Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.35;
+		s_recoilControlKick = 0.75;
+	};
+	class BO_PP1901_Bttstck : Inventory_Base {
+		s_recoilControlStabilityX = 0.50;
+		s_recoilControlStabilityY = 0.50;
+		s_recoilControlMisalignmentX = 0.00;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.75;
+	};
+	class BO_MCXTacops_Bttstck_Base : Inventory_Base {
+		s_recoilControlStabilityX = 0.50;
+		s_recoilControlStabilityY = 0.50;
+		s_recoilControlMisalignmentX = 0.00;
+		s_recoilControlMisalignmentY = 0.25;
+		s_recoilControlKick = 0.75;
+	};
+	class BO_MCXSpear_Bttstck_Base : Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.35;
+		s_recoilControlKick = 0.75;
+	};
+	class BO_SA58_Buttstock : Inventory_Base {
+		s_recoilControlStabilityX = 0.45;
+		s_recoilControlStabilityY = 0.45;
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.35;
+		s_recoilControlKick = 0.75;
+	};
+	class BO_CAR15_Bttstk : Inventory_Base {
+		s_recoilControlStabilityX = 0.50;
+		s_recoilControlStabilityY = 0.50;
+		s_recoilControlMisalignmentX = 0.20;
+		s_recoilControlMisalignmentY = 0.30;
+		s_recoilControlKick = 0.72;
+	};
+
+	///////////////////////////////////////////////////////////////// HANDGUARDS
+	class BO_CAR15_Handguard : Inventory_Base {
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.15;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class BO_MCXTacops_Handguard : Inventory_Base {
+		s_recoilControlStabilityX = 0.15;
+		s_recoilControlStabilityY = 0.15;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+
+	////////////////////////////////////////////////////////////////////// GRIPS
+	/////////////////////////////////////////////////////////////// COMPENSATORS
 	class ItemSuppressor;
 	class BO_P30L_Compensator : ItemSuppressor {
 		s_recoilControlMisalignmentX = 0.25;
