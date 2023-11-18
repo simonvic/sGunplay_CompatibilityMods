@@ -91,130 +91,130 @@ class cfgVehicles {
 	class Inventory_Base;
 	///////////////////////////////////////////////////////////////// BUTTSTOCKS
 	class TF_PKP_PlasticBttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_PKM_WoodBttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_PKM_ZenitPT2Bttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_PKM_CNCC39Bttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_M4_B5PrecisionBttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_M4_MagpulPRSGen3Bttstck_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_M16_Bttstck_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_M4_FABDGLCoreBttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_AK_MagpulZhukovBttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_AK_MVRIBttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_AK_Zenit_PT1Bttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_AN94_PlasticBttstck_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_MAR10_Bttstck_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_M4CraneBttstck : TF_MAR10_Bttstck_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_M4_ADARBttstck_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_M4_CMMG_RIPBttstck_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_SCAR_Mk20Bttstck_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_SCAR_StndBttstck_Base : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 
 	///////////////////////////////////////////////////////////////// HANDGUARDS
@@ -222,163 +222,163 @@ class cfgVehicles {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_PKM_ZenitB50Hndgrd_RIS : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_M16_KACHndgrd_RIS_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AR10_URXHndgrd_MLOCK : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AR10_NoveskeHndgrd_Short_RIS : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AR10_NoveskeHndgrd_Long_RIS : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AR10_LancerHndgrd_MLOCK : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AR10_KACHndgrd_RIS : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AK_ZenitB10MB19Hndgrd_RIS : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AK_MagpulZhukovHndgrdU_MLOCK : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AK_MagpulMOEHndgrd_MLOCK : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_SCAR_ADDHndgrd_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AKS74U_WoodHndgrd : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AKS74U_CAAHndgrd_RIS : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AKS74U_ZenitB11PlasticHndgrd_RIS : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AK_ZenitB30B31Hndgrd_RIS : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AR10_CMMG15Hndgrd_MLOCK_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_AR10_CMMG9Hndgrd_MLOCK_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_Handguard_M4_ADAR_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_Handguard_M4_DD12_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_Handguard_M4_DD9_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_Handguard_M4_DD_FSP_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_Handguard_M4_SMR13_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_Handguard_M4_SMR9_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_M4_Hndgrd_RIS_FDE_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_SCAR_MREXHndgrd_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_SCAR_StndHndgrd_Base : Inventory_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	
 	////////////////////////////////////////////////////////////////////// GRIPS
@@ -431,7 +431,7 @@ class cfgVehicles {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_PKM_SAICompensator : ItemSuppressor {
 		s_recoilControlStabilityX = 0.15;
@@ -477,37 +477,37 @@ class CfgWeapons {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_SCAR_L_Base : Rifle_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_SCAR_L_CQC_Base : Rifle_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_SCAR_H_Base : Rifle_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_SCAR_H_CQC_Base : Rifle_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_SCAR_20_Base : Rifle_Base {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_OTs_14_Groza_Base : Rifle_Base {
 		s_recoilControlStabilityX = 0.70;
@@ -521,7 +521,7 @@ class CfgWeapons {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_M240_Base : Rifle_Base {
 		s_recoilControlStabilityX = 0.70;
@@ -570,7 +570,7 @@ class CfgWeapons {
 		s_recoilControlStabilityX = 0.20;
 		s_recoilControlStabilityY = 0.20;
 		s_recoilControlMisalignmentX = 0.55;
-		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_SVCh_Base : Rifle_Base {
 		s_recoilControlStabilityX = 0.65;
