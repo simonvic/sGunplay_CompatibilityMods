@@ -510,11 +510,11 @@ class CfgWeapons {
 		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_OTs_14_Groza_Base : Rifle_Base {
-		s_recoilControlStabilityX = 0.70;
-		s_recoilControlStabilityY = 0.70;
-		s_recoilControlMisalignmentX = 0.70;
-		s_recoilControlMisalignmentY = 0.75;
-		s_recoilControlKick = 0.70;
+		s_recoilControlStabilityX = 0.60;
+		s_recoilControlStabilityY = 0.60;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
 
 	class TF_AEK999_Base : Rifle_Base {
@@ -524,47 +524,47 @@ class CfgWeapons {
 		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_M240_Base : Rifle_Base {
-		s_recoilControlStabilityX = 0.70;
-		s_recoilControlStabilityY = 0.70;
-		s_recoilControlMisalignmentX = 0.70;
-		s_recoilControlMisalignmentY = 0.75;
-		s_recoilControlKick = 0.70;
+		s_recoilControlStabilityX = 0.60;
+		s_recoilControlStabilityY = 0.60;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_M249_Base : Rifle_Base {
-		s_recoilControlStabilityX = 0.70;
-		s_recoilControlStabilityY = 0.70;
-		s_recoilControlMisalignmentX = 0.70;
-		s_recoilControlMisalignmentY = 0.75;
-		s_recoilControlKick = 0.70;
+		s_recoilControlStabilityX = 0.60;
+		s_recoilControlStabilityY = 0.60;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
 
 	class TF_M1A_Base : Rifle_Base {
-		s_recoilControlStabilityX = 0.65;
-		s_recoilControlStabilityY = 0.70;
-		s_recoilControlMisalignmentX = 0.75;
-		s_recoilControlMisalignmentY = 0.80;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.60;
+		s_recoilControlStabilityY = 0.60;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_M14_DMR_Base : Rifle_Base {
-		s_recoilControlStabilityX = 0.65;
-		s_recoilControlStabilityY = 0.70;
-		s_recoilControlMisalignmentX = 0.75;
-		s_recoilControlMisalignmentY = 0.80;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.60;
+		s_recoilControlStabilityY = 0.60;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_M14_EBR_Base : Rifle_Base {
-		s_recoilControlStabilityX = 0.65;
-		s_recoilControlStabilityY = 0.70;
-		s_recoilControlMisalignmentX = 0.75;
-		s_recoilControlMisalignmentY = 0.80;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.60;
+		s_recoilControlStabilityY = 0.60;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_M14_Base : Rifle_Base {
-		s_recoilControlStabilityX = 0.65;
-		s_recoilControlStabilityY = 0.70;
-		s_recoilControlMisalignmentX = 0.75;
-		s_recoilControlMisalignmentY = 0.80;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.60;
+		s_recoilControlStabilityY = 0.60;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
 	class TF_MAR_10_Base : Rifle_Base {
 		s_recoilControlStabilityX = 0.20;
@@ -573,20 +573,20 @@ class CfgWeapons {
 		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TF_SVCh_Base : Rifle_Base {
-		s_recoilControlStabilityX = 0.65;
-		s_recoilControlStabilityY = 0.70;
-		s_recoilControlMisalignmentX = 0.75;
-		s_recoilControlMisalignmentY = 0.80;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.60;
+		s_recoilControlStabilityY = 0.60;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
 	
 	class BoltActionRifle_Base;
 	class TF_VPO190_Base : BoltActionRifle_Base {
-		s_recoilControlStabilityX = 0.65;
-		s_recoilControlStabilityY = 0.65;
-		s_recoilControlMisalignmentX = 0.70;
-		s_recoilControlMisalignmentY = 0.70;
-		s_recoilControlKick = 0.70;
+		s_recoilControlStabilityX = 0.60;
+		s_recoilControlStabilityY = 0.60;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
 	
 };
