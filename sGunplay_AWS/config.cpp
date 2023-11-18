@@ -57,32 +57,32 @@ class cfgVehicles {
 	class AD_DHF5_Base : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_showEnterMisalignment = 1;
-		s_pipRadius = 1.0;
-		s_pipMagnification = 0.2;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.001;
 		s_pipChromAber = 0.5;
 	};
 	class AD_LeupoldMk4_Base : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_showEnterMisalignment = 1;
-		s_pipRadius = 1.0;
-		s_pipMagnification = 0.2;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.001;
 		s_pipChromAber = 0.5;
 	};
 	class AD_NFATACR_Base : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_showEnterMisalignment = 1;
-		s_pipRadius = 1.0;
-		s_pipMagnification = 0.2;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.001;
 		s_pipChromAber = 0.5;
 	};
 	class AD_NFATACR_B13_RMR : AD_NFATACR_Base {
 		s_isFullscreen = 1;
 		s_showEnterMisalignment = 1;
-		s_pipRadius = 1.0;
-		s_pipMagnification = 0.2;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.001;
 		s_pipChromAber = 0.5;
 	};
@@ -90,15 +90,15 @@ class cfgVehicles {
 		s_isFullscreen = 1;
 		s_showEnterMisalignment = 1;
 		s_pipRadius = 3.0;
-		s_pipMagnification = 0.2;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.001;
 		s_pipChromAber = 0.5;
 	};	
 	class AD_Pilad_Base : ItemOptics_Base {
 		s_isFullscreen = 1;
 		s_showEnterMisalignment = 1;
-		s_pipRadius = 1.0;
-		s_pipMagnification = 0.2;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.001;
 		s_pipChromAber = 0.5;
 	};	
