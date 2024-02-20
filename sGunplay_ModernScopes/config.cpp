@@ -29,6 +29,7 @@ class CfgMods {
 };
 
 class cfgVehicles {
+	// ...
 	class ItemOptics;
 	class VTR_accupoint_Trijicon : ItemOptics {
 		s_isFullscreen = 1;
@@ -105,14 +106,6 @@ class cfgVehicles {
 	};
 	class VTR_Vortex : ItemOptics {
 		s_pipRadius = 0.26;
-		s_pipMagnification = 0.314;
-		s_pipBlur = 0.01;
-		s_pipChromAber = 0.2;
-	};
-	class VTR_SigSauerTango : ItemOptics {
-		s_isFullscreen = 1;
-		s_showEnterMisalignment = 1;
-		s_pipRadius = 1.0;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.2;
