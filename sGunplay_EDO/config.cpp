@@ -1202,7 +1202,6 @@ class cfgWeapons {
 		s_recoilControlMisalignmentY = 0.60;
 		s_recoilControlKick = 0.60;
 	};
-	class MP133Shotgun;
 	class BO_SPAS12_SemiAuto_Base : MP133Shotgun {
 		s_recoilControlStabilityX = 0.60;
 		s_recoilControlStabilityY = 0.60;
