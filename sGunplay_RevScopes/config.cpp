@@ -33,7 +33,7 @@ class cfgVehicles {
 
 	class ItemOptics;
 	class EXPS3G33Optic_Base : ItemOptics {
-		s_pipRadius = 0.41;
+		s_pipRadius = 0.38;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
@@ -46,7 +46,7 @@ class cfgVehicles {
 		};
 	};
 	class EXPS3G33Optic_AK_Base : ItemOptics {
-		s_pipRadius = 0.41;
+		s_pipRadius = 0.38;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
@@ -62,7 +62,7 @@ class cfgVehicles {
 		s_showEnterMisalignment = 1;
 		s_isFullscreen = 1;
 		s_pipRadius = 3.0;
-		s_pipMagnification = 0.2;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
@@ -70,7 +70,7 @@ class cfgVehicles {
 		s_showEnterMisalignment = 1;
 		s_isFullscreen = 1;
 		s_pipRadius = 3.0;
-		s_pipMagnification = 0.2;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
@@ -90,7 +90,7 @@ class cfgVehicles {
 		s_showEnterMisalignment = 1;
 		s_isFullscreen = 1;
 		s_pipRadius = 1.0;
-		s_pipMagnification = 0.314;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
@@ -115,20 +115,20 @@ class cfgVehicles {
 	class OldScopeOptic : ItemOptics {
 		s_showEnterMisalignment = 1;
 		s_isFullscreen = 1;
-		s_pipRadius = 1.0;
-		s_pipMagnification = 0.2;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class ATACROptic : ItemOptics {
-		s_pipRadius = 0.38;
-		s_pipMagnification = 0.314;
+		s_pipRadius = 0.314;
+		s_pipMagnification = 0.5;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
 	class ATACROptic_AK : ItemOptics {
-		s_pipRadius = 0.38;
-		s_pipMagnification = 0.314;
+		s_pipRadius = 0.314;
+		s_pipMagnification = 0.5;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
