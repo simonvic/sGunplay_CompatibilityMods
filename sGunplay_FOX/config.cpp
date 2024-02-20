@@ -39,8 +39,8 @@ class cfgVehicles {
 	class FOX_VORTEX : ItemOptics {
 		s_showEnterMisalignment = 1;
 		s_isFullscreen = 1;
-		s_pipRadius = 1.0;
-		s_pipMagnification = 0.314;
+		s_pipRadius = 2.0;
+		s_pipMagnification = 0.1;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
 	};
@@ -53,18 +53,18 @@ class cfgVehicles {
 	};
 		
 	class FOX_Bttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class TFH_Bttstck : Inventory_Base {
-		s_recoilControlStabilityX = 0.45;
-		s_recoilControlStabilityY = 0.45;
-		s_recoilControlMisalignmentX = 0.20;
-		s_recoilControlMisalignmentY = 0.25;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 
 	class FOX_AK74_Compensator_Base : ItemSuppressor {
@@ -93,66 +93,73 @@ class cfgVehicles {
 	};
 
 	class FOX_rail_hndgrd : Inventory_Base {
-		s_recoilControlStabilityX = 0.15;
-		s_recoilControlStabilityY = 0.15;
-		s_recoilControlMisalignmentX = 0.50;
-		s_recoilControlMisalignmentY = 0.55;
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class TFH_rail_hndgrd : Inventory_Base {
-		s_recoilControlStabilityX = 0.15;
-		s_recoilControlStabilityY = 0.15;
-		s_recoilControlMisalignmentX = 0.50;
-		s_recoilControlMisalignmentY = 0.55;
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class FOX_rail_hndgrd2 : Inventory_Base {
-		s_recoilControlStabilityX = 0.15;
-		s_recoilControlStabilityY = 0.15;
-		s_recoilControlMisalignmentX = 0.50;
-		s_recoilControlMisalignmentY = 0.55;
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 	class FOX_hndgrd : Inventory_Base {
-		s_recoilControlStabilityX = 0.15;
-		s_recoilControlStabilityY = 0.15;
-		s_recoilControlMisalignmentX = 0.50;
-		s_recoilControlMisalignmentY = 0.55;
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.45;
 	};
 };
 
 class CfgWeapons {
 	class Rifle_Base;
 	class FOX_CZ361 : Rifle_Base {
-		s_recoilControlStabilityX = 0.70;
-		s_recoilControlStabilityY = 0.70;
-		s_recoilControlMisalignmentX = 0.50;
-		s_recoilControlMisalignmentY = 0.65;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.60;
+		s_recoilControlStabilityY = 0.60;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
 	class FOX_KEDR : Rifle_Base {
-		s_recoilControlStabilityX = 0.70;
-		s_recoilControlStabilityY = 0.70;
-		s_recoilControlMisalignmentX = 0.50;
-		s_recoilControlMisalignmentY = 0.65;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.60;
+		s_recoilControlStabilityY = 0.60;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
-	class M16A2_Base : Rifle_Base {
-		s_recoilControlStabilityX = 0.50;
-		s_recoilControlStabilityY = 0.50;
-		s_recoilControlMisalignmentX = 0.25;
-		s_recoilControlMisalignmentY = 0.30;
-		s_recoilControlKick = 0.75;
+	class FOX_M16A2_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.60;
+		s_recoilControlStabilityY = 0.60;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
 	class FOX_SOK94 : Rifle_Base {
-		s_recoilControlStabilityX = 0.50;
-		s_recoilControlStabilityY = 0.50;
-		s_recoilControlMisalignmentX = 0.25;
-		s_recoilControlMisalignmentY = 0.30;
-		s_recoilControlKick = 0.75;
+		s_recoilControlStabilityX = 0.40;
+		s_recoilControlStabilityY = 0.40;
+		s_recoilControlMisalignmentX = 0.05;
+		s_recoilControlMisalignmentY = 0.15;
+		s_recoilControlKick = 0.60;
 	};
 	class FOX_PPSH41 : Rifle_Base {
 		s_recoilControlStabilityX = 0.60;
 		s_recoilControlStabilityY = 0.60;
-		s_recoilControlMisalignmentX = 0.50;
-		s_recoilControlMisalignmentY = 0.75;
-		s_recoilControlKick = 0.75;
+		s_recoilControlMisalignmentX = 0.60;
+		s_recoilControlMisalignmentY = 0.60;
+		s_recoilControlKick = 0.60;
 	};
+	class FOX_PPSH41_TAC : Rifle_Base {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.45;
+	};
+	// TODO: new weapons and optics
 };
